@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COMO</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="logo">imgVLogo</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_section1">Cobros del día</string>
+    <string name="title_section2">Avisos generados</string>
+    <string name="title_section3">Salir</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Salir</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="strLogin">Ingresar</string>
+    <string name="invalid_user">Éste usuario es inválido</string>
+    <string name="invalid_password">La contraseña es demasiado corta</string>
+    <string name="incorrect_password">La contraseña es incorrecta</string>
+    <string name="field_required">Éste campo es requerido</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="strSalir">Salir</string>
+
+</resources>
