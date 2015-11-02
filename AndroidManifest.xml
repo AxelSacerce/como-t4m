@@ -3,24 +3,20 @@
     package="com.tech4mobile.cobromovil"
     android:versionCode="1"
     android:versionName="1.0" >
-    
+
     <permission
-    android:name="com.tech4mobile.cobromovil.permission.MAPS_RECEIVE"
+        android:name="com.tech4mobile.cobromovil.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
-    
+
     <uses-permission android:name="com.tech4mobile.cobromovil.permission.Maps_RECEIVE" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-     
-    
-    
-    
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -55,14 +51,19 @@
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
         </activity>
-        
-        
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCPZf5BiaZ8R8EKmudrgNVcuNKwTaD50tY" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

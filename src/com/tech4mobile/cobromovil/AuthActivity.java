@@ -35,7 +35,7 @@ import java.util.List;
  */
 public class AuthActivity extends Activity implements LoaderCallbacks<Cursor> {
 
-    private static final String DUMMY_CREDENTIALS = "axel:hello";
+    private static final String DUMMY_CREDENTIALS = "as:as";
 
     private UserLoginTask userLoginTask = null;
     private View loginFormView;
@@ -139,12 +139,13 @@ public class AuthActivity extends Activity implements LoaderCallbacks<Cursor> {
 
     private boolean isUserValid(String user) {
         //add your own logic
-        return user.length() >= 4;
+        return user.length() >= 2;
     }
 
     private boolean isPasswordValid(String password) {
         //add your own logic
-        return password.length() > 4;
+        //return password.length() > 4;
+    	return password.length() >= 2;
     }
 
     /**
@@ -233,9 +234,9 @@ public class AuthActivity extends Activity implements LoaderCallbacks<Cursor> {
             showProgress(false);
 
             if (success) {
-            	Intent intent = new Intent(AuthActivity.this, MenuActivity.class);
-	    		AuthActivity.this.startActivity(intent);
-	    		AuthActivity.this.finish();
+            	Intent intent = new Intent(AuthActivity.this, MainMenuActivity.class);
+            	AuthActivity.this.startActivity(intent);
+            	AuthActivity.this.finish();
             } else {
                 // login failure
                 passwordText.setError(getString(R.string.incorrect_password));

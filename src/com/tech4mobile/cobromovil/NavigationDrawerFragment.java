@@ -28,7 +28,6 @@ import android.widget.Toast;
  * > design guidelines</a> for a complete explanation of the behaviors
  * implemented here.
  */
-
 @SuppressWarnings("deprecation")
 public class NavigationDrawerFragment extends Fragment {
 
@@ -112,7 +111,9 @@ public class NavigationDrawerFragment extends Fragment {
 				android.R.id.text1, new String[] {
 						getString(R.string.title_section1),
 						getString(R.string.title_section2),
-						getString(R.string.title_section3), }));
+						getString(R.string.title_section3), 
+						getString(R.string.title_section4),
+						getString(R.string.title_section5),}));
 		mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
 		return mDrawerListView;
 	}
@@ -273,11 +274,11 @@ public class NavigationDrawerFragment extends Fragment {
 			return true;
 		}
 
-		if (item.getItemId() == R.id.action_example) {
+		/*if (item.getItemId() == R.id.action_example) {
 			Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT)
 					.show();
 			return true;
-		}
+		}*/
 
 		return super.onOptionsItemSelected(item);
 	}
@@ -290,8 +291,8 @@ public class NavigationDrawerFragment extends Fragment {
 	private void showGlobalContextActionBar() {
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayShowTitleEnabled(true);
-		/*actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);*/
-		/*actionBar.setTitle(R.string.app_name);*/
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
+		actionBar.setTitle(R.string.app_name);
 	}
 
 	private ActionBar getActionBar() {
