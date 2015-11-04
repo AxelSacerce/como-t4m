@@ -53,20 +53,24 @@
                         android:inputType="text"
                         android:maxLines="1"
                         android:singleLine="true"
+                        android:text="as"
                         android:textColor="#ffffffff"
                         android:textColorHint="#ffffffff" />
 
-                    <EditText 
+                    <EditText
                         android:id="@+id/txtPassword"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
                         android:hint="@string/prompt_password"
                         android:imeActionLabel="@string/prompt_password"
-                        android:imeOptions="actionUnspecified" android:inputType="textPassword"
-                        android:maxLines="1" android:singleLine="true"
-                        android:layout_marginBottom="10dp"
-                        android:textColorHint="#ffffffff"
-                        android:textColor="#ffffffff" />
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="as"
+                        android:textColor="#ffffffff"
+                        android:textColorHint="#ffffffff" />
 
                     <Button
                         android:id="@+id/btnIngresar"

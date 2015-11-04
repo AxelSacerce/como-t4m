@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.tech4mobile.cobromovil.R;
 import com.zebra.printer.MobilePrinter;
 
 /**
@@ -63,8 +64,41 @@ public class DetalleActivityFragment extends Fragment{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		
-		gps = new GPSTracker(getActivity());
+				
+		if(verificaConexion(getActivity()) == false) {
+        	AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+			builder.setTitle(getResources().getString(R.string.lblAccion).toString());
+			builder.setMessage(getResources().getString(R.string.lblSeguroExit).toString());
+			builder.setPositiveButton(getResources().getString(R.string.lblSi).toString(), new DialogInterface.OnClickListener() {
+
+			    public void onClick(DialogInterface dialog, int which) {
+			    	
+			    	System.exit(0);
+			    				        
+			    }
+			
+			});
+			
+			/*builder.setNegativeButton(getResources().getString(R.string.lblNo).toString(), new DialogInterface.OnClickListener() {
+
+			    @Override
+			    public void onClick(DialogInterface dialog, int which) {
+			    	
+			        dialog.cancel();
+			    }
+			});*/			
+
+
+			AlertDialog alert = builder.create();
+			alert.show();
+        }else
+        {
+        	
+        	gps = new GPSTracker(getActivity());
+        	
+        }
 		
+			
 			
 	}
 	
