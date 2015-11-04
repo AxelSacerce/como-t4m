@@ -54,7 +54,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCPZf5BiaZ8R8EKmudrgNVcuNKwTaD50tY" />
+            android:value="AIzaSyDwvdpALPBY_UIemn81t-6Cra-L0sN6ujY" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -63,6 +63,10 @@
             android:name=".MainMenuActivity"
             android:label="@string/title_activity_main_menu"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MostrarMapaActivity"
+            android:label="@string/title_activity_mostrar_mapa" >
         </activity>
     </application>
 

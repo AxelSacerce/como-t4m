@@ -6,14 +6,14 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="logo">imgVLogo</string>
     <string name="title_activity_menu">MenuActivity</string>
-    <string name="title_section1"> </string>
+    <string name="title_section1"></string>
     <string name="title_section2">Listado Cobros del día</string>
     <string name="title_section3">Detalle Cobro (demo)</string>
     <string name="title_section4">Cobros realizados</string>
     <string name="title_section5">Salir</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example"> </string>
+    <string name="action_example"></string>
     <string name="action_settings">Salir</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="hello_world">Hello world!</string>
@@ -28,5 +28,15 @@
     <string name="strSalir">Salir</string>
     <string name="title_activity_main_menu">MainMenuActivity</string>
     <string name="demo_content">Contenido demo Aqui va el detalle del cobro</string>
+    <string name="strDetalleTitle">Detalle Cobro</string>
+    <string name="strImgMap">Mapa Icono</string>
+    <string name="strInfoImg">Logo</string>
+    <string name="title_activity_mostrar_mapa">Ultima Ubicacion del cliente</string>
+    <string name="lblAccion">Cobro Móvil</string>
+    <string name="lblSeguroExit">Recuerde esta aplicación trabaja con acceso a internet, en estos momentos no cuenta con ninguna conexión, la aplicación se cerrará</string>
+    <string name="lblSi">Aceptar</string>
+    <string name="lblNo">No</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mnMapa">Regresar Detalle</string>
 
 </resources>

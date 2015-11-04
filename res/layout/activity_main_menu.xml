@@ -15,19 +15,20 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#fdffce" >
+        android:background="#f1f1f1" >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/imgTitleMapDetalle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="205dp"
+                android:contentDescription="@string/strInfoImg"
                 android:src="@drawable/logoscreenalpha" />
 
         </RelativeLayout>
