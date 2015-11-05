@@ -119,9 +119,10 @@ int drawable powered_by_google_light 0x7f02002c
 int drawable radialback 0x7f02002d
 int drawable screen 0x7f02002e
 int drawable splash_screen 0x7f02002f
-int id action_example 0x7f08003a
-int id action_exit 0x7f08003c
-int id action_settings 0x7f080039
+int id RelativeLayout1 0x7f080038
+int id action_example 0x7f080040
+int id action_exit 0x7f080042
+int id action_settings 0x7f08003f
 int id adjust_height 0x7f080001
 int id adjust_width 0x7f080002
 int id book_now 0x7f080012
@@ -132,8 +133,13 @@ int id buy_now 0x7f080013
 int id buy_with 0x7f080014
 int id buy_with_google 0x7f080015
 int id cast_notification_id 0x7f080000
-int id chape 0x7f080038
+int id chape 0x7f08003e
 int id classic 0x7f080019
+int id cobro_l0 0x7f080039
+int id cobro_l1 0x7f08003a
+int id cobro_l2 0x7f08003b
+int id cobro_l3 0x7f08003c
+int id cobro_l4 0x7f08003d
 int id container 0x7f08002b
 int id donate_with 0x7f080016
 int id donate_with_google 0x7f080017
@@ -162,7 +168,7 @@ int id logo_only 0x7f080018
 int id lstvCommun 0x7f080035
 int id map 0x7f080037
 int id match_parent 0x7f080010
-int id mnMapa 0x7f08003b
+int id mnMapa 0x7f080041
 int id monochrome 0x7f08001e
 int id navigation_drawer 0x7f08002d
 int id none 0x7f080003

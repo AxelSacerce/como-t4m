@@ -16,6 +16,7 @@ import org.apache.http.client.methods.HttpPut;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHttpResponse;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 
@@ -24,6 +25,23 @@ public class NetworkWs {
 	/*
 	 *  Inician Métodos que se enviarán a WS para capturar, insertar y enviar información 
 	 */
+	
+	// Obtener listado de contratos
+	
+	public static String ListadoPendientes()
+	{
+		String result="";
+		ArrayList<NameValuePair> params;
+		params = null;
+				
+		result = GETData("http://dev-wagadelta.c9.io/api/cobros",params);
+		return result;
+	}
+	
+	
+	
+	
+	
 	
 
 	/*
@@ -103,6 +121,7 @@ public class NetworkWs {
 		DefaultHttpClient mHttpClient = new DefaultHttpClient();
 		HttpGet mHttpGet = null;
 		if (params!= null) {
+			
 			mHttpGet = new HttpGet(url+"&"+ URLEncodedUtils.format(params, "utf-8"));
 			
 		}else{

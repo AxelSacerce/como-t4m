@@ -525,9 +525,10 @@ containing a value of this type.
         public static final int splash_screen=0x7f02002f;
     }
     public static final class id {
-        public static final int action_example=0x7f08003a;
-        public static final int action_exit=0x7f08003c;
-        public static final int action_settings=0x7f080039;
+        public static final int RelativeLayout1=0x7f080038;
+        public static final int action_example=0x7f080040;
+        public static final int action_exit=0x7f080042;
+        public static final int action_settings=0x7f08003f;
         public static final int adjust_height=0x7f080001;
         public static final int adjust_width=0x7f080002;
         public static final int book_now=0x7f080012;
@@ -538,8 +539,13 @@ containing a value of this type.
         public static final int buy_with=0x7f080014;
         public static final int buy_with_google=0x7f080015;
         public static final int cast_notification_id=0x7f080000;
-        public static final int chape=0x7f080038;
+        public static final int chape=0x7f08003e;
         public static final int classic=0x7f080019;
+        public static final int cobro_l0=0x7f080039;
+        public static final int cobro_l1=0x7f08003a;
+        public static final int cobro_l2=0x7f08003b;
+        public static final int cobro_l3=0x7f08003c;
+        public static final int cobro_l4=0x7f08003d;
         public static final int container=0x7f08002b;
         public static final int donate_with=0x7f080016;
         public static final int donate_with_google=0x7f080017;
@@ -568,7 +574,7 @@ containing a value of this type.
         public static final int lstvCommun=0x7f080035;
         public static final int map=0x7f080037;
         public static final int match_parent=0x7f080010;
-        public static final int mnMapa=0x7f08003b;
+        public static final int mnMapa=0x7f080041;
         public static final int monochrome=0x7f08001e;
         public static final int navigation_drawer=0x7f08002d;
         public static final int none=0x7f080003;
